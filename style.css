@@ -1,0 +1,54 @@
+.button-group{
+    display: inline-flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+.main{
+    text-align: center;
+}
+
+#scebutton {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 745px;
+    gap: 100px; 
+}
+.anychart-embed-countries-thailand {
+    margin-left: 100px;
+  }
+
+.body{
+    background-image: url(Stoicheia_p.png);
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.blink{
+  animation: blink 1s infinite;
+}
